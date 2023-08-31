@@ -83,22 +83,10 @@ puts ascii_code(character)
 # console output: otherwise, "I think <animal>s have pet-tential!" (potential)
 # hint: use puts
 
-# def pet_pun(animal = dog )
-#     return nill if animal != cat & dog 
-#     if animal = dog puts 'Cats are purr-fect!'
-#     if animal = cat puts 'Dogs are paw-some!'
-#     if animal = animals puts "I think <animal>s have pet-tential!"
-# end
 
-# puts pet_pun
 
 # method name: #twenty_first_century?
 # parameter: year (an integer)
 # return value: true if the year is between 2001 - 2100, otherwise return false
 # hint: use Comparable#between?
 
-# def twenty_first_century(year)
-#     if year
-# end
-
-# puts 
