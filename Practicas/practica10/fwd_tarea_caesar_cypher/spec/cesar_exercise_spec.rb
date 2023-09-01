@@ -1,10 +1,9 @@
 require 'spec_helper'
-require_relative '../cesar_cipher'
-
+require_relative './../caesar_cipher.rb'
 
 RSpec.describe 'Caesar Cipher' do
     describe 'create caesar cipher' do
-  
+
         context 'with a string and a left shift' do
             it 'returns proper result' do
                 result = "Bmfy f xywnsl!"
