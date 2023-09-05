@@ -1,10 +1,4 @@
-class Cat
-    attr_accessor :name, :age
-
-    def report_age
-        puts "#{@name} tiene #{@age} años"
-    end
-
+class Cat < Animal
     def talk
         puts "#{@name} dice miaow, miaow!"
     end
@@ -12,4 +6,5 @@ class Cat
     def moves(desti)
         puts "#{name} camina a #{desti}"
     end
+    
 end

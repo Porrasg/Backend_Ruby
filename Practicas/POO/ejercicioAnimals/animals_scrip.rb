@@ -1,3 +1,4 @@
+require_relative "animal"
 require_relative "bird"
 require_relative "cat"
 require_relative "dog"
@@ -16,7 +17,14 @@ dog.age = 3
 
 
 # imprimir en consola
+bird.moves('cielo')
+bird.report_age
+bird.talk
+
+cat.moves('casa')
+cat.report_age
+cat.talk
+
 dog.moves('parque')
 dog.report_age
 dog.talk
-

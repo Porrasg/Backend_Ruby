@@ -1,4 +1,4 @@
-class Dog
+class Animal
     attr_accessor :name, :age
 
     def report_age
@@ -10,6 +10,6 @@ class Dog
     end
 
     def moves(desti)
-        puts "#{name} corre a #{desti}"
+        puts "#{name} camina a #{desti}"
     end
 end
